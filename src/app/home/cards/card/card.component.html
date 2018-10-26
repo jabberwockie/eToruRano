@@ -1,0 +1,21 @@
+<!--<div class="card" *ngFor="let card of cards">
+  <img class="card-img-top" [src]="card.imagen_resumen" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{ card.titulo }}</h5>
+    <p class="card-text">{{ card.texto_resumen }}</p>
+    <a
+      [routerLink]="['/noticia', card.id]"
+      class="btn"
+      routerLinkActive="active">Leer más</a>
+  </div>
+</div>-->
+
+<div class="card">
+  <img class="card-img-top" [src]="'https://picsum.photos/400/200?image=19'" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Un Título Choro</h5>
+    <p class="card-text">El resumen del texto</p>
+    <a class="btn"
+      routerLinkActive="active">Leer más</a>
+  </div>
+</div>

@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
+titulo = 'E Toru Rano Rapa Nui';
+bajada = 'El primer parque de decenso de Rapa Nui';
+boton = 'Descrubre Más';
 
   constructor() { }
 

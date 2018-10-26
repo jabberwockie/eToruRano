@@ -1,0 +1,35 @@
+.sliding-background {
+  background: url("../../assets/rano_kao.jpg") no-repeat fixed center;
+  height: 1000px;
+  background-size: cover;
+  overflow: hidden;
+  width: auto;
+  background-origin: border-box;
+  position: relative;
+  opacity: 0.8;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 50%;
+  text-align: right;
+  color: #fff;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.button-caption {
+  background: rgba(255, 255, 255, 0);
+  font-weight: 600;
+  margin: 20px 0 0;
+  padding: 12px 12px;
+  border: solid 1px white;
+  color: white;
+}
+
+.button-caption:hover {
+  background: white;
+  color: black;
+}

@@ -1,0 +1,14 @@
+.contenido {
+  display: grid;
+  text-align: center;
+  margin: 50px auto;
+  grid-template-areas: "app-card app-card" "app-card app-card";
+  grid-gap: 50px;
+  max-width: 60%;
+}
+
+@media all and (max-width: 768px) {
+  .contenido {
+    display: block;
+  }
+}
